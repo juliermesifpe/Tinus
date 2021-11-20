@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-color: darkgray;
+    height: 10vh;
+}
+.conteudo{
+    background-color: royalblue;
+    height: 75vh;
+}
+.rodape{
+    background-color: darkgray;
+    height: 15vh;
+}
+.menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_navegacao a{
+    margin: 0 1em;
+    text-decoration: none;
+    color: black;
+}
+.menu_logo img{
+    display: inherit;
+    width: 10vh;
+}
+.cadastro{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cadastro_titulo{
+    border-bottom: solid;
+    width: 100%;
+    text-align: center;
+    margin: 1em 0;
+}
+.cadastro_campos{ 
+    display: flex;
+    flex-direction: column;
+}
+.cadastro_campos label{
+    display: block;
+    margin: 1em 0 0 0;
+    font-weight: bold;
+ }
+ .cadastro_campos textarea{
+    border-radius: 1em;
+ }
+.cadastro_funcoes{
+    margin: 1em;
+}
+.cadastro_funcoes button{
+    margin: 0 1em;
+    padding: 2px;
+    border-radius: 5px;
+}
+.cadastro_funcoes button:hover{
+   cursor: pointer;
+   color: royalblue;
+}
+.contato{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contato figcaption{
+   display: inline-block;
+   vertical-align: top;
+   margin: calc((34px - 18px)/2);
+}
