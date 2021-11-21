@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-color: darkgray;
+    height: 10vh;
+}
+.menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_navegacao a{
+    margin: 0 1em;
+    text-decoration: none;
+    color: black;
+}
+.menu_logo img{
+    display: inherit;
+    width: 10vh;
+}
+.conteudo{
+    background-color: lavender;
+    height: 75vh;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 1px;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: max-content;
+    margin: 1em auto;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+.cadastro label{
+    display: block;
+}
+.rodape{
+    background-color: darkgray;
+    height: 15vh;
+}
+.contato{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contato figcaption{
+   display: inline-block;
+   vertical-align: top;
+   margin: calc((34px - 18px)/2);
+}
